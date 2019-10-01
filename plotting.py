@@ -10,7 +10,6 @@ trail_secs = 1
 
 fig = plt.figure(figsize=(7, 7), dpi=102.867)
 ax = fig.add_subplot(111)
-ax.set_aspect('equal')
 
 
 def plot_frame(pendulums, i, dt, di):
@@ -33,7 +32,7 @@ def plot_frame(pendulums, i, dt, di):
 
     # The trail will be divided into ns segments and plotted as a fading line.
     max_trail = int(trail_secs / dt)
-    ns = 20
+    ns = 10
     s = max_trail // ns
 
     for j in range(ns):

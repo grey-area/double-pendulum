@@ -17,13 +17,13 @@ def parse_args():
 
     parser.add_argument(
         '--num-pendulums', type=int,
-        default=1,
+        default=2,
         help='Number of pendulums, between 1 and 200'
     )
 
     parser.add_argument(
         '--simulation-time', type=float,
-        default=10,
+        default=20,
         help='Simulation time in seconds, between 0.1 and 1000'
     )
 
