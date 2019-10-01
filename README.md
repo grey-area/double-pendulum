@@ -8,6 +8,7 @@ Based on some code found at https://scipython.com/blog/the-double-pendulum/
 Requirements
 ============
 
+- Python >3.6
 - numpy
 - scipy
 - matplotlib
