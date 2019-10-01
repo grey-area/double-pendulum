@@ -21,5 +21,7 @@ Use
 
 Each frame will be saved as a separate image in a ``./frames`` directory.
 
+Note that the plotting in particular could be optimized, and will be quite slow for more than 10 pendulums.
+
 If you're using linux and have ffmpeg installed, you can combine these images
 into a video using the provided ``./make_video.sh`` script.
